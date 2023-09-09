@@ -7,5 +7,6 @@ class Welcome:
     
     def run(self):    
         self._display.showText("Welcome Player 1")
+         self._display.reset()
         self._display.showText("This is the Memory Game!")
     
