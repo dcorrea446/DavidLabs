@@ -7,5 +7,6 @@ class ClosingMessage:
     
     def run(self):    
         self._display.showText("Thanks for playing Player 1")
+        self._display.reset()
         self._display.showText("Good Bye!")
     
